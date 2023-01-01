@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoM", "CryptoM\CryptoM.csproj", "{2E1B635E-8778-47B2-88B7-E0B21E6E23C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{128B66B7-4749-4AFD-A81B-690BE0D7EDD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{70031162-28A0-4B89-86B0-201E727AAC26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{8B52A54F-6B77-4E2A-82D2-6F2BA927A00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase", "DataBase\DataBase.csproj", "{3E6529E4-BBA7-4FFD-810D-CF96CED82DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdParty", "ThirdParty\ThirdParty.csproj", "{102BC909-A4D0-41CC-9434-730CE5807E18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1B635E-8778-47B2-88B7-E0B21E6E23C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1B635E-8778-47B2-88B7-E0B21E6E23C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1B635E-8778-47B2-88B7-E0B21E6E23C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1B635E-8778-47B2-88B7-E0B21E6E23C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6529E4-BBA7-4FFD-810D-CF96CED82DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6529E4-BBA7-4FFD-810D-CF96CED82DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6529E4-BBA7-4FFD-810D-CF96CED82DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6529E4-BBA7-4FFD-810D-CF96CED82DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102BC909-A4D0-41CC-9434-730CE5807E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102BC909-A4D0-41CC-9434-730CE5807E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102BC909-A4D0-41CC-9434-730CE5807E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102BC909-A4D0-41CC-9434-730CE5807E18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E1B635E-8778-47B2-88B7-E0B21E6E23C1} = {128B66B7-4749-4AFD-A81B-690BE0D7EDD9}
+		{3E6529E4-BBA7-4FFD-810D-CF96CED82DF1} = {70031162-28A0-4B89-86B0-201E727AAC26}
+		{102BC909-A4D0-41CC-9434-730CE5807E18} = {8B52A54F-6B77-4E2A-82D2-6F2BA927A00C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A6DC7B1-10A3-49AD-B768-CA2F570CC88B}
+	EndGlobalSection
+EndGlobal
